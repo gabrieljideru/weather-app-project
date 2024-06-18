@@ -1,11 +1,11 @@
 # Weather App Project
-## Table of Contents
+Table of Contents
 Introduction
 Features
 Technologies Used
 Usage
 
-Introduction
+## Introduction
 The Weather App is a simple, user-friendly web application that provides current weather information for any city around the world. It uses HTML, CSS, and JavaScript to fetch and display data from a weather API.
 
 ## Features
