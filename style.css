@@ -120,3 +120,62 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .card {
+    max-width: 500px;
+  }
+
+  .search input {
+    width: 20px;
+    height: 30px;
+  }
+
+  .search button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .search button img {
+    width: 20px;
+  }
+
+  .weather-icon {
+    width: 100px;
+  }
+
+  .weather h1 {
+    font-size: 40px;
+  }
+
+  .weather h2 {
+    font-size: 25px;
+  }
+
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh;
+    grid-gap: 20px 0px;
+  }
+
+  .col {
+    justify-content: center;
+  }
+
+  .col img {
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 18px;
+    margin-top: -6px;
+  }
+
+  .credits {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+}
